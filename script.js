@@ -234,11 +234,9 @@ async function deletarRegistro(id) {
       
     }
 
-
-    function fazerAlgo() {
-      // Chama a função principal
-      alert("Você chamou a função!");
-
+     // Chama a função principal
+    function fazerAlgo() {   
+     
       // Faz o botão desaparecer
       const botao = document.getElementById("meuBotao");
       botao.style.display = "none"; // Define 'display' como 'none' para ocultar
